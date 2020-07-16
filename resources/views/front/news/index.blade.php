@@ -15,7 +15,7 @@
 
       <div class="row">
         <div class = "reklama col-12 ">
-          <img src="{{ asset('front/assets/images/reklama.jpg') }} "  />
+          <img src="{{ asset('front/assets/images/benejgupi_reklama.jpg') }} "  />
         </div>
       </div>
 
@@ -74,7 +74,7 @@
 
       <div class="row">
         <div class = "reklama col-12">
-          <img class = "mt-0" src="{{ asset('front/assets/images/reklama2.jpg') }} "  />
+          <img class = "mt-0" src="{{ asset('front/assets/images/tls_reklama.jpg') }} "  />
         </div>
       </div>
 

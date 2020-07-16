@@ -17,14 +17,14 @@
     $(".search-btn").click(function(){
         $('.search-txt').toggleClass('lang_href');
     });
-});  
+});
 // search style end
 
 
 
-//start volume 
-  var x = document.getElementById("backSound"); 
-function playAudio() { 
+//start volume
+  var x = document.getElementById("backSound");
+function playAudio() {
     x.play();
 }
 function pauseAudio() {
@@ -69,17 +69,17 @@ $(document).ready(function(){
 //     });
 // search style end
 	// burger click start
- 
+
 // // search jquery start
 //   $(document).ready(function(){
 //     $(".search-btn").click(function(){
 //     var bool = $('.search-txt').hasClass('lang_href');
 //       if(bool) {
 //         $('.search-txt').removeClass('lang_href')
-//         } else{ 
+//         } else{
 //           $('.search-txt').addClass('lang_href')
 //         }
-//     });  
+//     });
 
 
 
@@ -117,7 +117,7 @@ owl.owlCarousel({
         1000:{
             items:3,
             nav:true,
-            
+
         },
         1200:{
             items:4,
@@ -130,7 +130,7 @@ owl.owlCarousel({
 })
 
 
-//video popup 
+//video popup
 $('#videoLink').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
@@ -143,10 +143,8 @@ $('#videoLink').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
 })
-    
+
    $('#videoLink3').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-}) 
-
-
+})

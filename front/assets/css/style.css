@@ -257,7 +257,7 @@ nav .active a{
 .reklama img{
   margin: 80px 0 20px 0;
   max-width:100%;
-  height:150px;
+
 }
 
 .lang_href {
@@ -320,8 +320,35 @@ nav .active a{
 /*end change language style*/
 
 .main_banner_colage{
+  padding-top: 40px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  position: relative;
+}
+.rigth_side_banner{
+  right:-200px;
+  position: absolute;
+  right:0;
+}
+.left_side_banner img,.right_side_banner img{
+  width:130px;
+   height:190px;
+
+}
+#main.container{
+  padding:0 120px;
+}
+.side_banner_cont{
+  position:absolute;
+  top:150px;
+  padding:0;
+}
+.second_banner_cont{
   margin-top: 100px;
-  margin-bottom: 150px;
+}
+
+.third_banner_cont{
+  margin-top:230px;
 }
 .gray_col{
   background-color:#F8F8F8;
@@ -570,7 +597,7 @@ nav .active a{
   top:-43px;
   left:30px;
   background-color: black;
-  width:350px;
+  width:270px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding:4px 5px;
@@ -657,12 +684,15 @@ nav .active a{
 box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.3);
 border-radius: 25px;
 margin:0 -15px;
-margin:80px auto;
+margin:30px auto;
 position:relative;
 }
 .card-img-top{
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+}
+.border_radius_25{
+  border-radius: 25px;
 }
 .main_card_body{
   border:none;
@@ -779,6 +809,12 @@ h3 a {
   padding: 15px;
 
 }
+
+.zoom_in .card img:hover{
+  transition: all .2s linear;
+  transform: scale(1.05);
+}
+
 .no_padding {
   padding: 0;
 }
@@ -1962,6 +1998,9 @@ color:black;
   }
   #news.container{
     padding:0!important;
+  }
+  #main.container{
+    padding:0;
   }
 }
 

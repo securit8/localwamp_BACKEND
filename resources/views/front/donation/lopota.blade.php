@@ -17,7 +17,7 @@
         </div>
 
         <div class="container-fluid moiare_cont pt-1 px-0">
-            <img class="w-100" src="{{ asset('front/assets/images/lopota2.png') }}" alt="banner picture"/>
+            <img class="w-100" src="{{ asset('front/assets/images/lopota2.jpg') }}" alt="banner picture"/>
         </div>
 
         <div class="col-12 d-flex justify-content-between p-0">
@@ -43,20 +43,19 @@
 
                             <p>- კომფორტული მგზავრობა თბილისი - ლოპოტა - თბილისი</p>
                             <p>- განთავსება სასტურმოში LOPOTA LAKE RESORT & SPA</p>
+                            <p><strong>- შეხვედრა ზვიად ციკოლიასთან - "ქართული ბრენდის საიდუმლო" (OUTDOOR)</strong></p>
                             <p>- სადილი და საუზმე სასტუმროში</p>
                             <p>- კატამარანით გასეირნება</p>
                             <p>- მაგიდის ჩოგბურთი</p>
                             <p>- კარაოკე</p>
                             <p>- ბადმინტონი</p>
-                            <p>- შეხვედრა ზვიად ციკოლიასთან - "ქართული ბრენდის საიდუმლო" (OUTDOOR)</p>
-                            <p>- იოგას მასტერკლასი (OUTDOOR)</p>
                             <p>- POOL DJ</p>
-                            <P>- LATE CHECK OUT 26 ივლისს 13:00-ზე</P>
+                            <P>- LATE CHECK OUT 2 აგვისტოს 13:00-ზე</P>
                         </div>
 
 
                         <div class="col-12 mt-5 p-2 moiare_desc">
-                            <h2 class=" pl-3 mb-2 d-block">25 ივლისი</h2>
+                            <h2 class=" pl-3 mb-2 d-block">1 აგვისტო</h2>
 
                             <p>09:30-10:00 შეკრება დიდუბის საგამოფენო ცენტრის ცენტრალურ პარკინგზე (სამტრედიის ქუჩის
                                 მხრიდან)</p>
@@ -73,9 +72,8 @@
 
 
                         <div class="col-12 mt-5 p-2 moiare_desc">
-                            <h2 class=" pl-3 mb-2 d-block">26 ივლისი</h2>
+                            <h2 class=" pl-3 mb-2 d-block">2 აგვისტო</h2>
 
-                            <p>08:00-09:00 იოგა მასტერკლასი </p>
                             <p>08:00-11:00 საუზმე </p>
                             <p>11:00-13:00 თავისუფალი დრო</p>
                             <p>13:00-13:30 Check out</p>
@@ -102,7 +100,7 @@
     <p style="color:white;font-size:0.8rem;margin-bottom:2px;">*ვიზას პრემიალური ბარათებით გადახდისას მოქმედებს 10%-იანი ფასდაკლება</p>
   </div>
     <div class = "col-12 moiare_heading d-flex justify-content-between mt-0">
-      <div class ="col-lg-10 col-md-8 col-sm-7 col-6 turi_head">ერთი პერსონის ფასი ორადგილიან ნომერში </div><div class ="span">390<span style="color:black;font-size:1rem;">ლ</span></div><span class ="" style="margin-right:35px;color:black;"></span>
+      <div class ="col-lg-10 col-md-8 col-sm-7 col-6 turi_head">ერთი პერსონის ფასი ორადგილიან ნომერში </div><div class ="span">330<span style="color:black;font-size:1rem;">ლ</span></div><span class ="" style="margin-right:35px;color:black;"></span>
     </div>
 
   </div>

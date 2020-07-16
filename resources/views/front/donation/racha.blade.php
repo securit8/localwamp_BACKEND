@@ -19,13 +19,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/reklama2.jpg') }}" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/tls_reklama.jpg') }}" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
 
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/reklama.jpg') }}" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/kairo_reklama.jpg') }}" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
 
         </div>

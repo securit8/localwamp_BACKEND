@@ -27,11 +27,11 @@
             <div class ="col-3 text-center">
                 <a class="brand" href="{{ route('index') }}"><img src="{{ asset('front/assets/images/benebrand.png') }}"></a>
             </div>
-            <div class = "col-5 text-center">
-                <i class="fas fa-search search_btn"></i>
-                <input class="search_input" type="search" placeholder="ძიება სახელით, თარიღით, ადგილით..." aria-label="Search">
+
+            <div class = "col-4">
             </div>
-            <div class = "col-3 text-center">
+
+            <div class = "col-3 text-right">
 
 
 
@@ -63,22 +63,29 @@
                     </ul>
                 </div>
             </div>
+
+            <div class = "col-2 text-center">
+                <i class="fas fa-search search_btn"></i>
+                <input class="search_input" type="search" placeholder="ძიება..." aria-label="Search">
+            </div>
+
+
         </div>
     </div>
 
     <div class="container-fluid">
         <div class="row">
             <div class="col-9 col-sm-10 p-0">
-                <nav>
+                <nav class="navbar navbar-expand-lg">
 
 
-                    <div class="toggle">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
 
+                   <div class="toggle">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                   </div>
 
 
                     <ul id="" class="menu_list p-0">
@@ -86,8 +93,9 @@
                         <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">ტრანსპორტი</a></li>
                         <li class=" @if($menu == 3) active @endif"><a href="{{ route('donation.index') }}">მოიარე</a></li>
                         <li class=" @if($menu == 4) active @endif"><a href="{{ route('donation.lopota') }}">ივენთი</a></li>
-                        
+
                     </ul>
+
                 </nav>
             </div>
 
@@ -187,6 +195,10 @@
 <link rel="stylesheet"  href="{{ asset('front/assets/css/video_popup.css') }}">
 
 @yield('script')
+
+<div class="fb-customerchat"
+ page_id="131929430792351">
+</div>
 
 </body>
 </html>
